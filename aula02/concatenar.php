@@ -15,6 +15,9 @@
         #nome{
             color: #0f0
         }
+        body{
+            background-color: #0B4C5F
+        }
     </style>
 </head>
 <body>
@@ -22,15 +25,17 @@
 </body>
 </html>
 <?php 
-    ECHO "Hello World! <br>";
-    echo "Hello World! <br>";
-    Echo "Hello World! <br>";
+    $oibb = "Hello World! <br>";
+    ECHO "${oibb}";
+    echo "${oibb}";
+    Echo "${oibb}";
 
     $nome = "Gustavo";
     $sobrenome = "Gostoso";
-    $numero = 69;
+    $numero = 24.69101;
 
     echo "${nome} <h1> ${sobrenome} </br>";
     echo $numero . "<p> " . $nome . 
     " " . $sobrenome . "</p>";
+
 ?>
